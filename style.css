@@ -1,0 +1,15 @@
+.container{
+width: 1120px;
+margin: 0 auto;
+padding: 0 15px;
+}
+body{
+box-sizing: content-box;
+background-color: #E7DFD8;
+margin: 0 auto;
+
+}
+.mickey{
+padding-top: 99px;
+padding-bottom: 99px;
+}
