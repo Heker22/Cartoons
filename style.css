@@ -7,9 +7,80 @@ body{
 box-sizing: content-box;
 background-color: #E7DFD8;
 margin: 0 auto;
+color: #101010;
+}
+h1, h2, h3, h4, h5, h6{
+margin: 0;
+padding: 0;
+}
+a{
+text-decoration: none;
+
 
 }
 .mickey{
 padding-top: 99px;
 padding-bottom: 99px;
 }
+.mickey-number{
+    width: 74px;
+    height: 74px;
+    background-color: #B99FEA;
+    border-radius: 100px;
+    font-size: 38px;
+    line-height: 63%;
+    text-align: center;
+    margin-bottom: 28px;
+}
+.name{
+font-size: 19px;
+line-height: 189%;
+}
+.title{
+font-size: 35px;
+line-height: 130%;
+margin-bottom: 30px;
+}
+.text{
+ width: 494px;
+font-size: 14px;
+line-height: 157%;
+margin-bottom: 35px;
+}
+.mickey-link{
+background-color: #B99FEA;;
+border-radius: 8px;
+padding: 10px 20px;
+color: #000000;
+font-size: 16px;
+line-height: 138%;
+}
+.koko{
+padding-top: 113px;
+padding-bottom: 112px;
+}
+.koko-number{
+width: 74px;
+height: 74px;
+background-color: #EBA789;
+border-radius: 100px;
+text-align: center;
+margin-bottom: 28px;
+font-size: 38px;
+}
+.koko-link{
+    border-radius: 8px;
+    background-color: #EBA789;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 138%;
+    color: #000000;
+    
+}
+.koko-img{
+
+    
+
+
+}
+
