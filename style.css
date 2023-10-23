@@ -78,9 +78,28 @@ font-size: 38px;
     
 }
 .koko-img{
-
-    
-
-
+width: 518px;
+border-radius: 12px;   
 }
 
+.moana-img{
+border-radius: 12px;
+width: 1280px;
+}
+.moana-number{
+    border-radius: 100px;
+    background: #96DBC6;
+    width: 74px;
+    height: 74px;
+font-size: 38px;
+font-weight: 40px;
+line-height: 63%;
+}
+.moana-link{
+    border-radius: 8px;
+    background: #96DBC6;
+    padding: 10px 20px;
+font-size: 16px;
+line-height: 138%;
+color: #000;
+}
