@@ -84,7 +84,7 @@ border-radius: 12px;
 
 .moana-img{
 border-radius: 12px;
-width: 1280px;
+padding-top: 113px;
 }
 .moana-number{
     border-radius: 100px;
@@ -94,6 +94,9 @@ width: 1280px;
 font-size: 38px;
 font-weight: 40px;
 line-height: 63%;
+}
+.moana{
+padding-top: 215px;
 }
 .moana-link{
     border-radius: 8px;
