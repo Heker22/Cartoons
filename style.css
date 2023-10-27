@@ -1,3 +1,11 @@
+:root{
+--background-color: #E7DFD8;
+--text-color: #101010;
+--first-section-color: #B99FEA;
+--link-color:  #000000;
+--second-section-color:  #EBA789;
+--third-section-color: #96DBC6;
+}
 .container{
 width: 1120px;
 margin: 0 auto;
@@ -5,9 +13,9 @@ padding: 0 15px;
 }
 body{
 box-sizing: content-box;
-background-color: #E7DFD8;
+background-color: var(--background-color);
 margin: 0 auto;
-color: #101010;
+color: var(--text-color);
 }
 h1, h2, h3, h4, h5, h6{
 margin: 0;
@@ -25,7 +33,7 @@ padding-bottom: 99px;
 .mickey-number{
     width: 74px;
     height: 74px;
-    background-color: #B99FEA;
+    background-color:var(--first-section-color);
     border-radius: 100px;
     font-size: 38px;
     line-height: 63%;
@@ -48,10 +56,10 @@ line-height: 157%;
 margin-bottom: 35px;
 }
 .mickey-link{
-background-color: #B99FEA;;
+background-color: var(--first-section-color);
 border-radius: 8px;
 padding: 10px 20px;
-color: #000000;
+color: var(--link-color);
 font-size: 16px;
 line-height: 138%;
 }
@@ -62,7 +70,7 @@ padding-bottom: 112px;
 .koko-number{
 width: 74px;
 height: 74px;
-background-color: #EBA789;
+background-color: var(--second-section-color);
 border-radius: 100px;
 text-align: center;
 margin-bottom: 28px;
@@ -70,11 +78,11 @@ font-size: 38px;
 }
 .koko-link{
     border-radius: 8px;
-    background-color: #EBA789;
+    background-color: var(--second-section-color);
     padding: 10px 20px;
     font-size: 16px;
     line-height: 138%;
-    color: #000000;
+    color: var(--link-color);
     
 }
 .koko-img{
@@ -87,7 +95,7 @@ border-radius: 12px;
 }
 .moana-number{
     border-radius: 100px;
-    background: #96DBC6;
+    background-color: var(--third-section-color);
     width: 74px;
     height: 74px;
 font-size: 38px;
@@ -101,9 +109,9 @@ padding-bottom: 112px;
 }
 .moana-link{
     border-radius: 8px;
-    background: #96DBC6;
+    background: var(--third-section-color);
     padding: 10px 20px ;
 font-size: 16px;
 line-height: 138%;
-color: #000;
+color: var(--link-color);
 }
