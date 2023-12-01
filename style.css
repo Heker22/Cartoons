@@ -1,118 +1,157 @@
-:root{
---background-color: #E7DFD8;
---text-color: #101010;
---first-section-color: #B99FEA;
---link-color:  #000000;
---second-section-color:  #EBA789;
---third-section-color: #96DBC6;
+:root {
+    --background-color: #E7DFD8;
+    --text-color: #101010;
+    --first-section-color: #B99FEA;
+    --link-color: #000000;
+    --second-section-color: #EBA789;
+    --third-section-color: #96DBC6;
 }
-.container{
-width: 1120px;
-margin: 0 auto;
-padding: 0 15px;
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
-body{
-box-sizing: content-box;
-background-color: var(--background-color);
-margin: 0 auto;
-color: var(--text-color);
-font-family: 'Shadows Into Light', cursive;
+
+body {
+    box-sizing: content-box;
+    background-color: var(--background-color);
+    margin: 0 auto;
+    color: var(--text-color);
+    font-family: 'Shadows Into Light', cursive;
 }
-h1, h2, h3, h4, h5, h6{
-margin: 0;
-padding: 0;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
 }
-a{
-text-decoration: none;
+
+a {
+    text-decoration: none;
 
 
 }
-.mickey{
-padding-top: 99px;
-padding-bottom: 99px;
+
+.mickey {
+    padding-top: 99px;
+    padding-bottom: 99px;
 }
-.mickey-number{
+
+.mickey-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mickey-number {
     width: 74px;
     height: 74px;
-    background-color:var(--first-section-color);
+    background-color: var(--first-section-color);
     border-radius: 100px;
     font-size: 38px;
     line-height: 63%;
     text-align: center;
     margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.name{
-font-size: 19px;
-line-height: 189%;
+
+.name {
+    font-size: 19px;
+    line-height: 189%;
 }
-.title{
-font-size: 35px;
-line-height: 130%;
-margin-bottom: 30px;
+
+.title {
+    font-size: 35px;
+    line-height: 130%;
+    margin-bottom: 30px;
 }
-.text{
- width: 494px;
-font-size: 14px;
-line-height: 157%;
-margin-bottom: 35px;
+
+.text {
+    width: 494px;
+    font-size: 14px;
+    line-height: 157%;
+    margin-bottom: 35px;
 }
-.mickey-link{
-background-color: var(--first-section-color);
-border-radius: 8px;
-padding: 10px 20px;
-color: var(--link-color);
-font-size: 16px;
-line-height: 138%;
+
+.mickey-link {
+    background-color: var(--first-section-color);
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: var(--link-color);
+    font-size: 16px;
+    line-height: 138%;
 }
-.koko{
-padding-top: 113px;
-padding-bottom: 112px;
+
+.koko {
+    padding-top: 113px;
+    padding-bottom: 112px;
 }
-.koko-number{
-width: 74px;
-height: 74px;
-background-color: var(--second-section-color);
-border-radius: 100px;
-text-align: center;
-margin-bottom: 28px;
-font-size: 38px;
+.koko-wrap{
+    display: flex;
+    justify-content: space-between;
 }
-.koko-link{
+.koko-number {
+    width: 74px;
+    height: 74px;
+    background-color: var(--second-section-color);
+    border-radius: 100px;
+    text-align: center;
+    margin-bottom: 28px;
+    font-size: 38px;
+}
+
+.koko-link {
     border-radius: 8px;
     background-color: var(--second-section-color);
     padding: 10px 20px;
     font-size: 16px;
     line-height: 138%;
     color: var(--link-color);
-    
-}
-.koko-img{
-width: 518px;
-border-radius: 12px;   
+
 }
 
-.moana-img{
-border-radius: 12px;
+.koko-img {
+    width: 518px;
+    border-radius: 12px;
 }
-.moana-number{
+.moana-wrap{
+display: flex;
+justify-content: space-between;
+}
+.moana-img {
+    border-radius: 12px;
+}
+
+.moana-number {
     border-radius: 100px;
     background-color: var(--third-section-color);
     width: 74px;
     height: 74px;
-font-size: 38px;
-font-weight: 40px;
-line-height: 63%;
-text-align: center;
+    font-size: 38px;
+    font-weight: 40px;
+    line-height: 63%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
-.moana{
-padding-top: 113px;
-padding-bottom: 112px;
+
+.moana {
+    padding-top: 113px;
+    padding-bottom: 112px;
 }
-.moana-link{
+
+.moana-link {
     border-radius: 8px;
     background: var(--third-section-color);
-    padding: 10px 20px ;
-font-size: 16px;
-line-height: 138%;
-color: var(--link-color);
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 138%;
+    color: var(--link-color);
 }
